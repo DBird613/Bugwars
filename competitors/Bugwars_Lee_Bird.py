@@ -9,6 +9,15 @@ from shared import (
     Direction, Soil, Plant
 )
 
+#TODO: For organs, are we iterating through the priority list every time
+#   -If yes, then put a hard cap for photoglands to not waste energy
+#   -If no, then why not and do above
+#   -TLDR: How are we making organs
+
+#TODO: Stay stable and not move, move through attacking and reproducing
+#   -If surrounded by friendlies, no need to make more organs
+#   -TLDR: How do we stay stable once we hit the mid/endgame?
+
 
 class JensenHuang(Creature):
     """
